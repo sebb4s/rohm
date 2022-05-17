@@ -1,0 +1,1506 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+.servicio1:hover{
+    background-color: #397b97;
+}
+
+.servicio2:hover{
+    background-color: #397b97;
+}
+
+.servicio3:hover{
+    background-color: #397b97;
+}
+
+.servicio4:hover{
+    background-color: #397b97;
+}
+
+.servicio5:hover{
+    background-color: #397b97;
+}
+
+.servicio6:hover{
+    background-color: #397b97;
+}
+
+.servicio7:hover{
+    background-color: #397b97;
+}
+
+.servicio8:hover{
+    background-color: #397b97;
+}
+
+
+@media screen and (max-width:767px){
+    html{
+        min-height: 100%;
+        position: relative;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        background-color: #1578a1;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav{
+        display: flex;
+    }
+    
+    .secciones{
+        display: flex;
+    }
+    
+    header ul{
+        margin-right: 10px;
+        margin-left: 50px;
+        display: flex;
+        padding-top: 20px;
+    }
+    .linkSeccion{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: antiquewhite;
+        font-size: 15px;
+        font-weight: 550;
+        margin-left: 20px;
+        margin-right: 5px;
+    
+    }
+    
+    .logo{
+        height: 100px; 
+        width: auto;
+        padding-bottom: 0;
+        margin-left: 20px;
+        margin-top: -18px;
+    }
+    
+
+    .ubi{
+        height: 50px; 
+        width: auto;
+        margin-left: -20px;
+    }
+    
+    .ig{
+        height: 50px; 
+        width: auto;
+    }
+    
+    .fb{
+        height: 50px; 
+        width: auto;
+    }
+    
+    .mail{
+        height: 50px; 
+        width: auto;
+    }
+    
+    .picsTrabajos{
+        height: 300px; 
+        width: auto;
+    }
+    
+    
+    footer{
+        color: antiquewhite;
+        display: flex;
+        justify-content: space-between;
+        background-color: #1578a1;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .redesSociales{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .copyright{
+        padding-right: 30px;
+        margin: 17px 0 0 25px;
+    }
+    
+    .redesSociales h4{
+        margin-top: 17px;
+    }
+    
+    .content {
+        display: grid;
+        grid-template-rows: repeat(3 auto);
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        grid-template-areas: 
+        "content"
+        "desc"
+        "aside"
+        ;
+    }
+
+    .imgPrincipal{
+        width: 250px;
+        height: 250px;
+        border-radius: 150px;
+    }
+
+    .descripcion{
+        margin: 20px 0 15px 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        font-size: 25px;
+        color: #1578a1;
+        grid-area: desc;
+        text-align: center;
+        height: 140px;
+        
+    }
+    
+    .mainIndex{
+        grid-area: content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+
+    .aside{
+        
+        grid-area: aside;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .aside section h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #115674;
+        font-style: italic;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+
+    .content aside{
+        margin: 70px 0px 100px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    
+    .ubicacion h3{
+        margin-top: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: 150;
+    }
+    
+    
+    
+     /*                         CSS APLICADO A "NUESTROS TRABAJOS"                          */
+    
+
+
+    .tituloTrabajos{
+        margin: 25px 50px 25px 20px;
+        padding-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        height: 20px;
+        text-align: center;
+    }
+    
+    .mainTrabajos section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fotosTrabajos{
+        margin: 10px 0 100px 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 10px;
+        grid-template-areas:
+        "p1"
+        "p2"
+        "p3"
+        "p4"
+        "p5"
+        "p6"
+        ;
+    }
+    
+    .picTrabajos1{
+        grid-area: p1;
+        width: 350px;
+        height: auto;
+    }
+    
+    .picTrabajos2{
+        grid-area: p2;
+        width: 350px;
+        height: auto;
+    }
+    
+    .picTrabajos3{
+        grid-area: p3;
+        width: 350px;
+        height: 350px;
+    }
+
+    .picTrabajos4{
+        grid-area: p4;
+        width: 350px;
+        height: 350px;
+    }
+
+    .picTrabajos5{
+        grid-area: p5;
+        width: 350px;
+        height: auto;
+    }
+
+    .picTrabajos6{
+        grid-area: p6;
+        width: 350px;
+        height: auto;
+    }
+    
+    /*                         CSS APLICADO A "SERVICIOS"                          */
+    
+    
+    
+    
+    .tituloServicios{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        margin: 25px 0 25px 35px;
+        text-align: center;
+    }
+    
+    .secServicios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicios{
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        "s1"
+        "s2"
+        "s3"
+        "s4"
+        "s5"
+        "s6"
+        "s7"
+        "s8"
+        ;
+    }
+    
+    .servicio1{
+        grid-area: s1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio2{
+        grid-area: s2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio3{
+        grid-area: s3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio4{
+        grid-area: s4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio5{
+        grid-area: s5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio6{
+        grid-area: s6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio7{
+        grid-area: s7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio8{
+        grid-area: s8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .servicios li{
+        width: 340px;
+        margin-left: 25px;
+        list-style: none;
+        padding: 0px;
+        margin: 10px;
+        background-color: #42b1e0;
+        color: antiquewhite;
+        text-align: center;
+        font-weight: 545;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        
+    }
+    
+    
+    .servicios li img{
+        height: 200px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    
+    
+    /*                         CSS APLICADO A "¿QUIÉNES SOMOS?"                          */
+    
+    
+    .contentAboutUs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 30px;
+        grid-template-areas: 
+        "img"
+        "txt"
+        ;
+    }
+    
+    .imgNos{
+        grid-area: img;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .tituloUs{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        margin: 25px 0 25px 35px;
+        text-align: center;
+    }
+    
+    
+    .picNos{
+        height: 500px; 
+        width: auto;
+        margin: 25px 0 25px 35px;
+        border-radius: 100px;
+    }
+    
+    .quienesSomos{
+        text-align: center;
+        max-width: 700px;
+        margin: 0px 0 0px 10px;
+        grid-area: txt;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color: #1578a1;
+    }
+    
+    
+    
+    
+    /*                         CSS APLICADO A "CONTACTO"                          */
+    
+    .contentContact{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+        grid-template-areas: 
+        "form"
+        "aside"
+    }
+
+    .contentContact main{
+        grid-area: form;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .contacto{
+        padding: 15px 50px 40px 15px;
+        width: 280px;
+        background-color: #42b1e0;
+    }
+    
+    .tituloContacto{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        margin: 20px 0 25px 0px;
+        text-align: center;
+    }
+    
+    .formulario form label{
+        display: flex;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        flex-direction: column;
+    }
+    
+    .formulario form label ::placeholder{
+      color:#1578a1;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+    
+    .casilla{
+        min-height: 25px;
+        max-height: 60px;
+        max-width: 265px;
+    }
+    
+    .formulario form div{
+        margin-bottom: 15px;
+    }
+    
+    .textInfo{
+        margin-left: 25px;
+    }
+    
+    .botones{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+ 
+    
+    .contentContact aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-area: aside;
+    }
+    
+    
+    .tituloWsp h3{
+        font-size: 48px;
+        width: 350px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        text-align: center;
+    }
+    
+    .logoWsp{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logoWsp img{
+        width: 80px;
+        height: auto;
+        
+    }
+}
+  
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    html{
+        min-height: 100%;
+        position: relative;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        background-color: #1578a1;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav{
+        display: flex;
+    }
+    
+    .secciones{
+        display: flex;
+    }
+    
+    header ul{
+        margin-right: 10px;
+        margin-left: 50px;
+        display: flex;
+        padding-top: 30px;
+    }
+    .linkSeccion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: antiquewhite;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 5px;
+    
+    }
+    
+    .logo{
+        height: 100px; 
+        width: auto;
+        padding-bottom: 0;
+        margin-left: 20px;
+        margin-top: -18px;
+    }
+    
+
+    .ubi{
+        height: 50px; 
+        width: auto;
+        margin-left: -20px;
+    }
+    
+    .ig{
+        height: 50px; 
+        width: auto;
+    }
+    
+    .fb{
+        height: 50px; 
+        width: auto;
+    }
+    
+    .mail{
+        height: 50px; 
+        width: auto;
+    }
+    
+    .picsTrabajos{
+        height: 300px; 
+        width: auto;
+    }
+    
+    
+    footer{
+        color: antiquewhite;
+        display: flex;
+        justify-content: space-between;
+        background-color: #1578a1;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .redesSociales{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .copyright{
+        padding-right: 30px;
+        margin: 17px 0 0 25px;
+    }
+    
+    .redesSociales h4{
+        margin-top: 17px;
+    }
+    
+    .content {
+        display: grid;
+        grid-template-rows: repeat(3 auto);
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        grid-template-areas: 
+        "content"
+        "desc"
+        "aside"
+        ;
+    }
+
+    .imgPrincipal{
+        width: 400px;
+        height: 400px;
+        border-radius: 100px;
+    }
+
+    .descripcion{
+        margin: 20px 0 15px 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        font-size: 35px;
+        color: #1578a1;
+        grid-area: desc;
+        text-align: center;
+        height: 200px;
+        
+    }
+    
+    .mainIndex{
+        grid-area: content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+
+    .aside{
+        
+        grid-area: aside;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .aside section h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #115674;
+        font-style: italic;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+
+    .content aside{
+        margin: 70px 0px 100px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    
+    .ubicacion h3{
+        margin-top: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: 150;
+    }
+    
+    
+    
+     /*                         CSS APLICADO A "NUESTROS TRABAJOS"                          */
+    
+
+
+    .tituloTrabajos{
+        margin: 25px 50px 25px 20px;
+        padding-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        height: 20px;
+    }
+    
+    .fotosTrabajos{
+        margin: 10px 0 100px 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-template-areas:
+        "p1 p2"
+        "p3 p4"
+        "p5 p6"
+        ;
+    }
+    
+    .picTrabajos1{
+        grid-area: p1;
+        width: 350px;
+        height: auto;
+    }
+    
+    .picTrabajos2{
+        grid-area: p2;
+        width: 350px;
+        height: auto;
+    }
+    
+    .picTrabajos3{
+        grid-area: p3;
+        width: 350px;
+        height: 350px;
+    }
+
+    .picTrabajos4{
+        grid-area: p4;
+        width: 350px;
+        height: 350px;
+    }
+
+    .picTrabajos5{
+        grid-area: p5;
+        width: 350px;
+        height: auto;
+    }
+
+    .picTrabajos6{
+        grid-area: p6;
+        width: 350px;
+        height: auto;
+    }
+    
+    /*                         CSS APLICADO A "SERVICIOS"                          */
+    
+    
+    
+    
+    .tituloServicios{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        margin: 25px 0 25px 35px;
+    }
+    
+    .servicios{
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        "s1 s2"
+        "s3 s4"
+        "s5 s6"
+        "s7 s8"
+        ;
+    }
+    
+    .servicio1{
+        grid-area: s1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio2{
+        grid-area: s2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio3{
+        grid-area: s3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio4{
+        grid-area: s4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio5{
+        grid-area: s5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio6{
+        grid-area: s6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio7{
+        grid-area: s7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio8{
+        grid-area: s8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .servicios li{
+        width: 340px;
+        margin-left: 25px;
+        list-style: none;
+        padding: 0px;
+        margin: 10px;
+        background-color: #42b1e0;
+        color: antiquewhite;
+        text-align: center;
+        font-weight: 545;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        
+    }
+    
+    
+    .servicios li img{
+        height: 200px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    
+    
+    /*                         CSS APLICADO A "¿QUIÉNES SOMOS?"                          */
+    
+    
+    .contentAboutUs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 30px;
+        grid-template-areas: 
+        "img"
+        "txt"
+        ;
+    }
+    
+    .imgNos{
+        grid-area: img;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .tituloUs{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        margin: 25px 0 25px 35px;
+        text-align: center;
+    }
+    
+    
+    .picNos{
+        height: 500px; 
+        width: auto;
+        margin: 25px 0 25px 35px;
+    }
+    
+    .quienesSomos{
+        max-width: 700px;
+        margin: 0px 0 0px 30px;
+        grid-area: txt;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color: #1578a1;
+    }
+    
+    
+    
+    
+    /*                         CSS APLICADO A "CONTACTO"                          */
+    
+    .contentContact{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+        grid-template-areas: 
+        "form"
+        "aside"
+    }
+
+    .contentContact main{
+        grid-area: form;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .contacto{
+        padding: 15px 50px 40px 15px;
+        width: 280px;
+        background-color: #42b1e0;
+    }
+    
+    .tituloContacto{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        margin: 20px 0 25px 0px;
+        text-align: center;
+    }
+    
+    .formulario form label{
+        display: flex;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        flex-direction: column;
+    }
+    
+    .formulario form label ::placeholder{
+      color:#1578a1;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+    
+    .casilla{
+        min-height: 25px;
+        max-height: 60px;
+        max-width: 265px;
+    }
+    
+    .formulario form div{
+        margin-bottom: 15px;
+    }
+    
+    .textInfo{
+        margin-left: 25px;
+    }
+    
+    .botones{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+ 
+    
+    .contentContact aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-area: aside;
+    }
+    
+    
+    .tituloWsp h3{
+        font-size: 48px;
+        width: 350px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        text-align: center;
+    }
+    
+    .logoWsp{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logoWsp img{
+        width: 80px;
+        height: auto;
+        
+    }
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+    html{
+        min-height: 100%;
+        position: relative;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        background-color: #1578a1;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav{
+        display: flex;
+    }
+    
+    .secciones{
+        display: flex;
+    }
+    
+    header ul{
+        margin-left: 500px;
+        display: flex;
+        padding-top: 30px;
+    }
+    .linkSeccion{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: antiquewhite;
+        font-size: 18px;
+        padding: 0 35px 0 10px;
+    }
+    
+    .logo{
+        height: 100px; 
+        width: auto;
+        padding-bottom: 0;
+        margin-left: 20px;
+        margin-top: -18px;
+    }
+    
+
+    .ubi{
+        height: 50px; 
+        width: auto;
+        margin-left: -20px;
+    }
+    
+    .ig{
+        height: 50px; 
+        width: auto;
+    }
+    
+    .fb{
+        height: 50px; 
+        width: auto;
+    }
+    
+    .mail{
+        height: 50px; 
+        width: auto;
+    }
+    
+    .picsTrabajos{
+        height: 300px; 
+        width: auto;
+    }
+    
+    
+    footer{
+        color: antiquewhite;
+        display: flex;
+        justify-content: space-between;
+        background-color: #1578a1;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .redesSociales{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .copyright{
+        padding-right: 30px;
+        margin: 17px 0 0 25px;
+    }
+    
+    .redesSociales h4{
+        margin-top: 17px;
+    }
+    
+    .content {
+        display: grid;
+        grid-template-rows: 2, 1fr;
+        grid-template-columns: 3,1fr;
+        grid-gap: 40px;
+        grid-template-areas: 
+        "content content aside"
+        "desc desc desc"
+        ;
+    }
+
+    .imgPrincipal{
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 700px;
+        height: 700px;
+    }
+
+    .descripcion{
+        margin: 20px 0 80px 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        font-size: 35px;
+        color: #1578a1;
+        grid-area: desc;
+        text-align: center;
+        
+    }
+    
+    .mainIndex{
+        grid-area: content;
+    }
+
+    .aside{
+        grid-area: aside;
+    }
+
+    .aside section h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+
+    .content aside{
+        margin: 45px 80px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .ubicacion h3{
+        margin-top: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: 150;
+    }
+    
+    
+    
+    
+    
+     /*                         CSS APLICADO A "NUESTROS TRABAJOS"                          */
+    
+
+
+    .tituloTrabajos{
+        margin: 25px 50px 25px 20px;
+        padding-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        height: 20px;
+    }
+    
+    .fotosTrabajos{
+        margin: 10px 0 100px 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+        grid-template-areas:
+        "p1 p2 p3"
+        "p4 p5 p6"
+        ;
+    }
+    
+    .picTrabajos1{
+        grid-area: p1;
+        width: 400px;
+        height: auto;
+    }
+    
+    .picTrabajos2{
+        grid-area: p2;
+        width: 400px;
+        height: auto;
+    }
+    
+    .picTrabajos3{
+        grid-area: p3;
+        width: 400px;
+        height: 400px;
+    }
+
+    .picTrabajos4{
+        grid-area: p4;
+        width: 400px;
+        height: 400px;
+    }
+
+    .picTrabajos5{
+        grid-area: p5;
+        width: 400px;
+        height: auto;
+    }
+
+    .picTrabajos6{
+        grid-area: p6;
+        width: 400px;
+        height: auto;
+    }
+    
+    /*                         CSS APLICADO A "SERVICIOS"                          */
+    
+    
+    
+    
+    .tituloServicios{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        margin: 25px 0 25px 35px;
+    }
+    
+    .servicios{
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 30px;
+        grid-template-areas: 
+        "s1 s2 s3 s4"
+        "s5 s6 s7 s8"
+        ;
+    }
+    
+    .servicio1{
+        grid-area: s1;
+    }
+
+    .servicio2{
+        grid-area: s2;
+    }
+
+    .servicio3{
+        grid-area: s3;
+    }
+
+    .servicio4{
+        grid-area: s4;
+    }
+
+    .servicio5{
+        grid-area: s5;
+    }
+
+    .servicio6{
+        grid-area: s6;
+    }
+
+    .servicio7{
+        grid-area: s7;
+    }
+
+    .servicio8{
+        grid-area: s8;
+    }
+
+    .servicios li{
+        margin-left: 25px;
+        list-style: none;
+        padding: 20px;
+        margin: 10px;
+        background-color: #42b1e0;
+        color: antiquewhite;
+        text-align: center;
+        font-weight: 545;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        
+    }
+    
+    
+    .servicios li img{
+        height: 200px;
+        width: 300px;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    
+    
+    
+    /*                         CSS APLICADO A "¿QUIÉNES SOMOS?"                          */
+    
+    
+    .contentAboutUs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 30px;
+        grid-template-areas: 
+        "img txt txt"
+        ;
+    }
+    
+    .imgNos{
+        grid-area: img;
+    }
+
+    .tituloUs{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        margin: 25px 0 25px 35px;
+    }
+    
+    
+    .picNos{
+        height: 500px; 
+        width: auto;
+        margin: 25px 0 25px 35px;
+    }
+    
+    .quienesSomos{
+        max-width: 700px;
+        margin: 70px 0 25px 90px;
+    
+        grid-area: txt;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color: #1578a1;
+    }
+    
+    
+    
+    
+    /*                         CSS APLICADO A "CONTACTO"                          */
+    
+    .contentContact{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 20px;
+        grid-template-areas: 
+        ". form . aside ."
+    }
+
+    .contentContact main{
+        grid-area: form;
+    }
+
+    .contacto{
+        margin: 65px 0 150px 155px;
+        padding: 15px 50px 40px 15px;
+        width: 280px;
+        background-color: #42b1e0;
+    }
+    
+    .tituloContacto{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        margin: 20px 0 25px 0px;
+        text-align: center;
+    }
+    
+    .formulario form label{
+        display: flex;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        flex-direction: column;
+    }
+    
+    .formulario form label ::placeholder{
+      color:#1578a1;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+    
+    .casilla{
+        min-height: 25px;
+        max-height: 60px;
+        max-width: 265px;
+    }
+    
+    .formulario form div{
+        margin-bottom: 15px;
+    }
+    
+    .textInfo{
+        margin-left: 25px;
+    }
+    
+    .botones{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+ 
+    
+    .contentContact aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-area: aside;
+    }
+    
+    .tituloWsp{
+        margin: -50px 0 20px 100px;
+    }
+    
+    .tituloWsp h3{
+        font-size: 48px;
+        width: 350px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1578a1;
+        text-align: center;
+    }
+    
+    .logoWsp{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logoWsp img{
+        margin-left: 80px;
+        width: 80px;
+        height: auto;
+        
+    }
+}
