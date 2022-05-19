@@ -35,59 +35,25 @@
     background-color: #397b97;
 }
 
+.letraFooter{
+    font-size: 16px;
+    font-weight:600;
+}
+
+footer{
+    background: rgb(8,119,164);
+    background: linear-gradient(90deg, rgba(8,119,164,1) 19%, rgba(133,214,246,1) 83%);
+}
 
 @media screen and (max-width:767px){
     html{
         min-height: 100%;
         position: relative;
     }
-    
+
     body{
         display: flex;
         flex-direction: column;
-    }
-    
-    header{
-        background-color: #1578a1;
-        font-family: Arial, Helvetica, sans-serif;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    nav{
-        display: flex;
-    }
-    
-    .secciones{
-        display: flex;
-    }
-    
-    header ul{
-        margin-right: 10px;
-        margin-left: 50px;
-        display: flex;
-        padding-top: 20px;
-    }
-    .linkSeccion{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-decoration: none;
-        color: antiquewhite;
-        font-size: 15px;
-        font-weight: 550;
-        margin-left: 20px;
-        margin-right: 5px;
-    
-    }
-    
-    .logo{
-        height: 100px; 
-        width: auto;
-        padding-bottom: 0;
-        margin-left: 20px;
-        margin-top: -18px;
     }
     
 
@@ -119,10 +85,9 @@
     
     
     footer{
-        color: antiquewhite;
+        color: rgb(65, 63, 62);
         display: flex;
         justify-content: space-between;
-        background-color: #1578a1;
         font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
         position: absolute;
@@ -568,48 +533,7 @@
         display: flex;
         flex-direction: column;
     }
-    
-    header{
-        background-color: #1578a1;
-        font-family: Arial, Helvetica, sans-serif;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    nav{
-        display: flex;
-    }
-    
-    .secciones{
-        display: flex;
-    }
-    
-    header ul{
-        margin-right: 10px;
-        margin-left: 50px;
-        display: flex;
-        padding-top: 30px;
-    }
-    .linkSeccion{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-decoration: none;
-        color: antiquewhite;
-        font-size: 18px;
-        margin-left: 20px;
-        margin-right: 5px;
-    
-    }
-    
-    .logo{
-        height: 100px; 
-        width: auto;
-        padding-bottom: 0;
-        margin-left: 20px;
-        margin-top: -18px;
-    }
-    
+ 
 
     .ubi{
         height: 50px; 
@@ -639,7 +563,7 @@
     
     
     footer{
-        color: antiquewhite;
+        color: rgb(65, 63, 62);
         display: flex;
         justify-content: space-between;
         background-color: #1578a1;
@@ -1069,44 +993,6 @@
         flex-direction: column;
     }
     
-    header{
-        background-color: #1578a1;
-        font-family: Arial, Helvetica, sans-serif;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    nav{
-        display: flex;
-    }
-    
-    .secciones{
-        display: flex;
-    }
-    
-    header ul{
-        margin-left: 500px;
-        display: flex;
-        padding-top: 30px;
-    }
-    .linkSeccion{
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-        color: antiquewhite;
-        font-size: 18px;
-        padding: 0 35px 0 10px;
-    }
-    
-    .logo{
-        height: 100px; 
-        width: auto;
-        padding-bottom: 0;
-        margin-left: 20px;
-        margin-top: -18px;
-    }
-    
-
     .ubi{
         height: 50px; 
         width: auto;
@@ -1135,7 +1021,7 @@
     
     
     footer{
-        color: antiquewhite;
+        color: rgb(65, 63, 62);
         display: flex;
         justify-content: space-between;
         background-color: #1578a1;

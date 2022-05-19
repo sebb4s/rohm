@@ -6,45 +6,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/style.css">
     <link rel="shortcut icon" href="./img/1650845001.ico" type="image/x-icon">
 
     <title>Rohm</title>
 </head>
 
-<body>
+<body>        
     <header>
-        <figure>
-            <img class="logo" src="./img/logo_blanco.png" alt="Rohm logo">
-        </figure>
-        <nav>         
-              
-           <ul>             
-               <li  class="secciones">
-                 <a class="linkSeccion" href="index.html">Inicio</a>
-               </li>
-               <li class="secciones">
-                   <a class="linkSeccion" href="./secciones/trabajos.html">Nuestros trabajos</a>
-               </li>
-               <li class="secciones">
-                  <a class="linkSeccion" href="./secciones/servicios.html">Servicios</a> 
-               </li>
-               <li class="secciones">
-                  <a class="linkSeccion" href="./secciones/about_us.html">¿Quiénes somos?</a>
-               </li>
-               <li class="secciones">
-                <a class="linkSeccion" href="./secciones/contacto.html">Contacto</a>
-               </li>
-           </ul>            
-        </nav>
-    </header>
+        <nav class="navbar navbar-expand-lg" style="background: rgb(8,119,164);
+        background: linear-gradient(90deg, rgba(8,119,164,1) 19%, rgba(133,214,246,1) 83%);">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" ><img src="./img/logo_blanco.png" alt="logo rohm" style="height: 80px; width: 80px;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" href="index.html" style="color: white; font-weight:500;">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="./secciones/trabajos.html" style="color: white; font-weight:500;">Trabajos</a>
+                  <a class="nav-link" href="./secciones/about_us.html" style="color: white; font-weight:500;">¿Quiénes somos?</a>
+                  <a class="nav-link" href="./secciones/servicios.html" style="color: white; font-weight:500;">Servicios</a>
+                  <a class="nav-link" href="./secciones/contacto.html" style="color: white; font-weight:500;">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header> 
+            
 
     <div class="content">
 
-        <main class="mainIndex">
-                <figure>
-                    <img class="imgPrincipal" src="./img/pic1.jpg"/>
-                </figure>     
+        <main class="mainIndex" style="height: 700px; width: 700px;margin-top: 40px;
+        margin-left: 30px;">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/pic1.jpg" class="d-block w-100" alt="..." style="height: 700px; width: 700px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/pic4.jpg" class="d-block w-100" alt="..." style="height: 700px; width: 700px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/pic3.jpg" class="d-block w-100" alt="..." style="height: 700px; width: 700px;">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>   
         </main>
         
         <section  class="descripcion">
@@ -82,22 +98,24 @@
 
     <footer>
 
-        <h3 class="copyright">Rohm ©</h3>
+        <h3 class="copyright" style="font-size: 16px; font-weight:500; color: aliceblue;">Rohm ©</h3>
 
         <div class="redesSociales">
 
-            <h4>rohm.arg@gmail.com</h4>
+            <h4 class="letraFooter">rohm.arg@gmail.com</h4>
             <a href="link_mail"><img class="mail" src="./img/mail.png" alt="logo de mail"></a>
 
-             <h4>Rohm ARG</h4>
+             <h4 class="letraFooter">Rohm ARG</h4>
              <a href="link_facebook"><img class="fb" src="./img/fb.png" alt="logo de facebook"></a>
 
-            <h4>@rohm.arg</h4>
+            <h4 class="letraFooter">@rohm.arg</h4>
             <a href="link_instagram"><img class="ig" src="./img/ig.png" alt="logo de instagram"></a>
             
         </div>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 </html>
