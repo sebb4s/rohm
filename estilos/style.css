@@ -492,7 +492,9 @@ footer{
         justify-content: space-around;
     }
     
- 
+    .contentContact{
+        margin: 0 60px 0 60px;
+    }
     
     .contentContact aside{
         display: flex;
@@ -948,7 +950,9 @@ footer{
         justify-content: space-around;
     }
     
- 
+    .contentContact{
+        margin: 0 60px 0 60px;
+    }
     
     .contentContact aside{
         display: flex;
@@ -1304,6 +1308,8 @@ footer{
         grid-template-areas: 
         ". form . aside ."
     }
+
+    
 
     .contentContact main{
         grid-area: form;

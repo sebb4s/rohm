@@ -33,46 +33,41 @@
           </nav>
     </header>
 
-<div class="contentContact">
+<div class="contentContact" style="color: #42b1e0; margin-top: 30px;">
     <main>
-        <section class="contacto">
-            <section>
-                <h1 class="tituloContacto">CONTACTO</h1>
-            </section>
-            <article class="formulario">
-                <form action="#">
-                    <label for="nombre">
-                    <input class="casilla" type="text" placeholder="Ingrese su nombre"><br>
-                    </label>
-
-                    <label for="email">
-                        <input class="casilla" type="email" placeholder="ejemplo@gmail.com"  name="email"><br>
-                    </label>
-
-                    <label for="Observaciones">
-                        <textarea class="casilla" placeholder="Observaciones"></textarea>
-                    </label> <br>
-
-                    <label for="asunto"> 
-                        <input class="casilla" type="text" placeholder="Asunto"><br>
-                    </label>
-
-                    <label for="Consulta">
-                        <textarea class="casilla" placeholder="Escriba aquí su consulta"></textarea>
-                    </label> <br>
-
-                    <div class="textInfo">Queres recibir info sobre nosotros?&nbsp;
-                    <input type="checkbox" name="acepta" value="1">
-                    </div>
-
-                    <div class="botones">
-                    <input class="boton" type="submit" value="ENVIAR DATOS">
-                    <input class="boton" type="reset" value="RESETEAR">
-                    </div>
-
-                </form>
-            </article>
-        </section>
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Asunto</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Insertar asunto de consulta">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Consulta</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Inserte su duda">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Provincia</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Recibir información extra
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
        
     
 	</main>
