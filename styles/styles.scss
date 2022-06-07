@@ -13,11 +13,14 @@ $color_4: antiquewhite;
 
 $font-family_1: Arial, Helvetica, sans-serif;
 
-/* COLORES DE FONDO Y GRADIENTES  */
+/* MAPA DE COLORES DE FONDO Y GRADIENTES  */
 
-$background-color_1: #397b97;
-$background-color_2: #42b1e0;
-$background-color_3: #1578a1;
+$background-colors:(
+	background-color_1: #397b97,
+	background-color_2: #42b1e0,
+	background-color_3: #1578a1,
+);
+
 
 
 /*----------------------------------------------------------------------------------*/
@@ -26,6 +29,9 @@ $background-color_3: #1578a1;
 	padding: 0;
 	margin: 0;
 }
+
+$servicios: map-get($background-colors, background-color_1 );
+
 .servicio1 {
 	&:hover {
 		background-color: $background-color_1;
