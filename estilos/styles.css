@@ -40,6 +40,32 @@
   background-color: #397b97;
 }
 
+
+.picTrabajos1:hover {
+  box-shadow: 5px 5px 5px 5px #999;
+}
+.picTrabajos2:hover {
+  box-shadow: 5px 5px 5px 5px #999;
+}
+.picTrabajos3:hover {
+  box-shadow: 5px 5px 5px 5px #999;
+}
+.picTrabajos4:hover {
+  box-shadow: 5px 5px 5px 5px #999;
+}
+.picTrabajos5:hover {
+  box-shadow: 5px 5px 5px 5px #999;
+}
+.picTrabajos6:hover {
+  box-shadow: 5px 5px 5px 5px #999;
+}
+
+.contacto:hover{
+  border-radius: 50px;
+  transition: 1.5s;
+  
+}
+
 .letraFooter {
   font-size: 16px;
   font-weight: 600;
@@ -202,7 +228,6 @@ footer {
     padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #1578a1;
-    height: 20px;
     text-align: center;
   }
   .mainTrabajos section {
@@ -778,7 +803,6 @@ footer {
     padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #1578a1;
-    height: 20px;
   }
   .fotosTrabajos {
     margin: 10px 0 100px 20px;
@@ -1306,7 +1330,6 @@ footer {
     padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #1578a1;
-    height: 20px;
   }
   .fotosTrabajos {
     margin: 10px 0 100px 20px;
