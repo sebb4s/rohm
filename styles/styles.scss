@@ -993,11 +993,14 @@ footer {
 	.servicios {
 		margin-bottom: 100px;
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(2, 1fr);
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, 1fr);
 		grid-gap: 30px;
-		grid-template-areas: "s1 s2 s3 s4" "s5 s6 s7 s8";
+		grid-template-areas: "s1 s2 s3" "s4 s5 s6" "s7 s8 .";
 		li {
+			display: flex;
+   		    flex-direction: column;
+    		align-items: center;
 			margin-left: 25px;
 			list-style: none;
 			padding: 20px;
